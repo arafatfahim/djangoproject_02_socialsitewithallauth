@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+{% block content %}
+
+{{Hello}}
+<br>
+{{user}}
+
+{% endblock content %}
+
+{% block scripts %}
+
+<script>
+$(document).ready(function(){
+    console.log('working')
+})
+
+</script>
+{% endblock scripts %}
